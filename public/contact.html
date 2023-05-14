@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store : Contact Us</title>
+    <link rel = "stylesheet" href = "css/form.css">
+    <link rel = "stylesheet" href = "css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap" rel="stylesheet">
+<script src="/__/firebase/8.10.1/firebase-firestore.js"></script>
+</head>
+<body>
+    <img src = "img/loading.gif"  class = "loader" alt = "">
+    <section class = "form-section">
+        <div class = "form-container">
+           <div class = "form">
+             <h1 class = "form-heading">Contact Us</h1>
+             <input type="text" autocomplete="off" id = "name" placeholder="full name">
+             <input type="email" autocomplete="off" id = "email" placeholder="City">
+             <input type="password" autocomplete="off" id = "password" placeholder="Address">
+             <input type="tel" autocomplete="off" id = "number" placeholder="Contact Number">
+             <span class = "error">** this is an error</span>
+
+             <div>
+                <input type = "checkbox" id = "tc"><label for = "tc" class = "tc-text">You Agree to our <a href = "#">Terms and Conditions</a></label>
+             </div>
+
+             <button class = "submit-btn">Submit</button>  
+            
+             
+             <!-- <a href = "/login" class = "other-form-link">Already have an account</a> -->
+           </div>
+        
+        <img src = "img/contact.webp"  class = "form-img" alt = "">
+        </div>
+    </section>
+    <script src = "js/common.js"></script>
+    <script src = "js/contact.js"></script>
+</body>
+</html>
