@@ -8,12 +8,7 @@ import {} from 'dotenv/config';
 
 // private credentials 
 const firebaseConfig = {
-  apiKey: "AIzaSyD72yE5wjOaRjjIz5QAOn7BGCBqIjNAvyk",
-  authDomain: "astheticwebsite-05.firebaseapp.com",
-  projectId: "astheticwebsite-05",
-  storageBucket: "astheticwebsite-05.appspot.com",
-  messagingSenderId: "954765403322",
-  appId: "1:954765403322:web:45f5919ba051e8d8e9ce83"
+ 
 };
 
 // Initialize Firebase
